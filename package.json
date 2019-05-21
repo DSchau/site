@@ -94,7 +94,9 @@
     "yamljs": "^0.3.0"
   },
   "resolutions": {
-    "gatsby-link": "^2.1.1"
+    "gatsby-link": "^2.1.1",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
   },
   "repository": {
     "type": "git",
