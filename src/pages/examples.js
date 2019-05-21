@@ -1,4 +1,5 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 
 import DefaultLayout from 'src/layouts/DefaultNewest'
 import { NewToServerlessPrefooterNewest as NewToServerlessPrefooter } from 'src/fragments'

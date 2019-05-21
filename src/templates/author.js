@@ -1,4 +1,6 @@
 import React from 'react'
+import { graphql } from 'gatsby'
+
 import BlogLayout from 'src/layouts/Blog'
 import { Helmet } from 'src/fragments'
 import Prefooter from 'src/components/pages/blog/Prefooter'

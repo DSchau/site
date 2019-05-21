@@ -1,4 +1,6 @@
 import React from 'react'
+import { graphql } from 'gatsby'
+
 import { Flex, Heading, Box } from 'serverless-design-system'
 import BlogLayout from 'src/layouts/Blog'
 import BlogPreview from 'src/components/pages/blog/Preview'

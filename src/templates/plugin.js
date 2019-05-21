@@ -1,4 +1,6 @@
 import React from 'react'
+import { graphql } from 'gatsby'
+
 import DefaultLayout from 'src/layouts/DefaultNew'
 import PluginContent from 'src/components/pages/plugin/PluginContent'
 import { Helmet } from 'src/fragments'

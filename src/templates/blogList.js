@@ -1,4 +1,6 @@
 import React from 'react'
+import { graphql } from 'gatsby'
+
 import BlogLayout from 'src/layouts/BlogNewest'
 import HighlightedBlogs from 'src/components/pages/blog/HighlightedBlogs'
 import BlogPreview from 'src/components/pages/blog/Preview'

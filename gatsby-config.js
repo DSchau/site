@@ -14,7 +14,6 @@ module.exports = {
       description: 'Articles, resources, and posts on serverless architectures, best practices, and how-to.'
     },
   plugins: [
-    'gatsby-plugin-react-next',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-root-import',
     'gatsby-plugin-styled-components',
@@ -75,7 +74,7 @@ module.exports = {
         }
       }
     },
-
+    `gatsby-plugin-webpack-bundle-analyser-v2`,
     {
       resolve: `gatsby-plugin-feed`,
       options: {

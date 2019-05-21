@@ -33,7 +33,7 @@ const createBlogListingPageWithPagination = (createPage, blogs) => {
       context: {
         limit: blogsPerPage,
         start: i,
-        highlightedBlogsRegEx,
+        highlightedBlogsRegEx: highlightedBlogsRegEx.toString(),
       },
     })
   }

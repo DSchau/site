@@ -206,7 +206,11 @@ const sourceDocs = createNode => (err, content, _filename, next) => {
   if (err) throw err
 
   const { data: frontmatter, content: markdownContent } = matter(content)
-  const url = frontmatter.gitLink.replace(/\/README.md|.md/i, '/')
+  const url = (frontmatter.gitLink || '').replace(/\/README.md|.md/i, '/')
+
+  if (!url) {
+    return next()
+  }
 
   unified()
     .use(markdown)

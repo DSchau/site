@@ -12,12 +12,5 @@ export default [
         "location": "San Francisco/Remote",
         "status": "Full-time",
         "link": "https://jobs.lever.co/serverless/963e85b2-79f4-4b30-affc-37521724f33d"
-    },
-    {
-        "heading": "Engineering",
-        "title": "Senior Platform Engineer",
-        "location": "San Francisco/Remote",
-        "status": "Full-time",
-        "link": "https://jobs.lever.co/serverless/8386016f-af6d-49e3-b0b6-2ee19a416396"
     }
 ]
